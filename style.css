@@ -1,5 +1,5 @@
 .header {
-    background-color:midnightblue;
+    background-color:#1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,7 +14,7 @@ ul {
     margin: 0;
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 a {
