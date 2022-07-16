@@ -40,10 +40,16 @@
     margin-top: 10px;
 }
 
-.hero-image {
+#gray {
     height: auto;
     width: 400px;
     margin-left: 40px;
+}
+
+.planets {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 ul {
@@ -59,7 +65,13 @@ a {
     color: white;
 }
 
-img {
+.planets > * {
     height: auto;
-    width: 100px;
+    width: 175px;
+    border-radius: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
 }
