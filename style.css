@@ -39,6 +39,7 @@
     border-style: none;
     width: 150px;
     margin-top: 10px;
+    font-weight: 700;
 }
 
 #gray {
@@ -80,6 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 200px;
 }
 
 .blue-box {
@@ -87,7 +89,17 @@
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
+    padding: 20px 100px;
+    border-radius: 16px;
+    width: 800px;
 }
+
+#action {
+    font-size: 23px;
+    color: white;
+    margin-bottom: -15px;
+}
+
 
 ul {
     padding: 0;
@@ -114,4 +126,10 @@ h1 {
     text-align: center;
     font-weight: 900;
     margin: 50px 0px;
+}
+
+.blue-box button {
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
 }
