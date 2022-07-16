@@ -40,6 +40,12 @@
     margin-top: 10px;
 }
 
+.hero-image {
+    height: auto;
+    width: 400px;
+    margin-left: 40px;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -55,6 +61,5 @@ a {
 
 img {
     height: auto;
-    width: 400px;
-    margin-left: 40px;
+    width: 100px;
 }
