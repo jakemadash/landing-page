@@ -1,5 +1,5 @@
 * {
-    font-family:'roboto', sans-serif;
+    font-family:sans-serif;
 }
 
 .header {
@@ -28,6 +28,7 @@
 
 .secondary {
     font-size: 18px;
+    color: lightgrey;
 }
 
 .sign-up {
@@ -46,7 +47,7 @@
     margin-left: 40px;
 }
 
-.planets {
+.planets, .captions {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -65,10 +66,12 @@ a {
     color: white;
 }
 
-.planets > * {
+.planets > *, .captions > *{
     height: auto;
     width: 175px;
     border-radius: 16px;
+    font-size: 18px;
+    color: gray;
 }
 
 h1 {
