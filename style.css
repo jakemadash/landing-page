@@ -76,6 +76,19 @@
     font-weight: 700;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+}
+
 ul {
     padding: 0;
     margin: 0;
