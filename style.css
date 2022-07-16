@@ -53,6 +53,29 @@
     gap: 40px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 90px 350px 70px;
+}
+
+#brendan {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#fraser {
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -35px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
 ul {
     padding: 0;
     margin: 0;
