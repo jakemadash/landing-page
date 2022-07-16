@@ -1,23 +1,38 @@
+* {
+    font-family:'roboto', sans-serif;
+}
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .top {
     color: white;
     background-color:#1F2937;
+    padding: 10px 200px;
 }
 
 .hero {
     font-size: 48px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .secondary {
     font-size: 18px;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    width: 100px;
 }
 
 ul {
