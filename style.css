@@ -2,23 +2,40 @@
     font-family:sans-serif;
 }
 
-.header {
+.space-between {
     display: flex;
     justify-content: space-between;
+}
+
+.center-justify {
+    display: flex;
+    justify-content: center;
+}
+
+.center-align {
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.header {
     align-items: center;
     margin-bottom: 100px;
 }
 
 .top {
-    color: white;
     background-color:#1F2937;
     padding: 10px 200px 100px;
 }
 
 .hero {
     margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
 }
 
 #hero-text {
@@ -32,14 +49,13 @@
 }
 
 .sign-up {
-    color: white;
     background-color: #3882f6;
-    border-radius: 10px;
     padding: 10px;
     border-style: none;
     width: 150px;
     margin-top: 10px;
     font-weight: 700;
+    font-size: 18px;
 }
 
 #gray {
@@ -49,16 +65,11 @@
 }
 
 .planets, .captions {
-    display: flex;
-    justify-content: center;
     gap: 40px;
 }
 
 .quote {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
     padding: 90px 350px 70px;
 }
@@ -78,31 +89,23 @@
 }
 
 .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 100px 200px;
 }
 
 .blue-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #3882f6;
     padding: 20px 100px;
-    border-radius: 16px;
     width: 800px;
 }
 
 #action {
     font-size: 23px;
-    color: white;
     margin-bottom: -15px;
+    font-weight: 700;
 }
 
 .footer {
     text-align: center;
-    color: white;
     background-color:#1F2937;
     padding: 40px 0;
 }
@@ -123,7 +126,7 @@ a {
 .planets > *, .captions > *{
     height: auto;
     width: 175px;
-    border-radius: 16px;
+    border-radius: 10px;
     font-size: 18px;
     color: gray;
 }
